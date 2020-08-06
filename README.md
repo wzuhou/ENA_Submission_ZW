@@ -4,7 +4,9 @@
 ### Date: 2020-08-06
 
 This is to show the basic steps to submit data to ENA repository.
-WGS data with PE reads will be submitted. we have 44 samples with 826 PE fastq files. The fatsq files of the same sample were stored under one folder, named by the sample name.
+WGS data with PE reads will be submitted. we have 44 samples with 826 PE fastq files. 
+The fatsq files of the same sample were stored under one folder, named by the sample name.
+The PE reads should share the prefix of file.
 
 ## Steps for submission on ENA
 1.	Study  x1 (Do it online **interactively**)
