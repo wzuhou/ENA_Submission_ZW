@@ -1,5 +1,5 @@
 # ENA_Submission_test
-#chang test
+
 ### Author: Zhou Wu
 ### Date: 2020-08-06
 
@@ -9,9 +9,9 @@ WGS data with PE reads will be submitted. we have 44 samples with 826 PE fastq f
 ## Steps for submission on ENA
 1.	Study  x1 (Do it online **interactively**)
 2.	Samples  x44 (Do it online **interactively**)
-3.	Data  x143x2 (PE-reads) (Do it online **interactively**, prepare the speadsheet and md5 with the following script)
+3.	Data  x143x2 (PE-reads) (Do it online **interactively**, prepare the speadsheet and md5 with the following scripts)
 
-## Scripts in this project
+## Scripts
 1.  make_md5.sh 
 2.  Run_make_md5.sh
 3.  make_spreadlist_test.sh
