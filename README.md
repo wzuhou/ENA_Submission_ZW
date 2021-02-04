@@ -20,9 +20,7 @@ WGS data with PE reads will be submitted. we have 44 samples with 826 PE fastq f
 2.  Run_make_md5.sh  #Only needed when more than two PE reads files of one single sample are presented, and this script is simply used to run `make_md5.sh`
 3.  make_spreadlist_test.sh
 
-**NOTE** If more than two PE files of one single sample need to be submitted, then the mulitple PE reads files of the same sample should be stored under one folder named with the sample name (structure: \[Sample_name\]/\[Multiple_Reads_names\]). 
-
-Then, all the folder names(which equals the sample list) are listed in the file `Example/Folders`
+**NOTE** More than two PE files of one single sample(multiple runs/libiaries) need to be submitted? The mulitple PE reads files of the same sample should be stored under one folder named with the sample name (structure: \[Sample_name\]/\[Multiple_Reads_names\] ). Then all the folder names(which equals the sample list) are listed in the file `Example/Folders`
 
 ## Example files: 
 
