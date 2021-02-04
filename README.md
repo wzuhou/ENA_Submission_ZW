@@ -22,7 +22,7 @@ WGS data with PE reads will be submitted. we have 44 samples with 826 PE fastq f
 
 **NOTE** If more than two PE files of one single sample need to be submitted, then the mulitple PE reads files of the same sample should be stored under one folder named with the sample name. Then all the folder names(which equals the sample list) are listed in the file `Folders`
 
-See example files: 
+## Example files: 
 
 1. Samples x2 : in `Folders`
-2. Data 8x2 : PE reads (2 samplex 4 pairs) prefix are in the 2nd columns of `Folders_R1_test`, 1st column is sample name.
+2. Data 8x2 : PE reads (2 sample x 8 PE reads files of one single sample) prefix are in the 2nd columns of `Folders_R1_test`, 1st column is sample name.
