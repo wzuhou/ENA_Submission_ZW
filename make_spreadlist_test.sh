@@ -6,6 +6,10 @@
 ls */*_R1.fastq.gz> Folders_R1_test #Make a list
 sed -i 's/\// /g' Folders_R1_test #Split into two colums
 sed -i 's/R1\.fastq\.gz/ /g' Folders_R1_test #make the second column the *prefix* See the Folders_R1_test file
+#awk -F_ '{print $3 "\t" $0}' Folders_R1_test | sort -k 1 >Fastq_prefix_Sample(or the Folders_R1_test in previous case)
+#while read -r SAM FQ; do ACC=`grep $SAM Sample_accession | cut -f 1`; printf $ACC"\t"$SAM"\t"$FQ"\n" ; done < Fastq_prefix_Sample2  >ACC_SAMP_FQ.txt
+
+
 #echo header line and make the Spreadsheet files
 
 echo "sample_alias	instrument_model	library_name	library_source	library_selection	library_strategy	design_description	library_construction_protocol	insert_size	forward_file_name	forward_file_md5	reverse_file_name	reverse_file_md5" > Spreadsheet.txt 
