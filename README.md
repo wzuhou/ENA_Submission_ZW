@@ -10,7 +10,7 @@ WGS data with PE reads will be submitted. we have 44 samples with 826 PE fastq f
 
 **It is recommanded to test the submissions using the [Webin test service](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/interactive.html?highlight=TEST#production-and-test-services)**
 
-[How to understand ENA accession numbers](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html?highlight=era#accession-numbers)
+In order to understand ENA accession numbers: [How to understand ENA accession numbers](https://ena-docs.readthedocs.io/en/latest/submit/general-guide/accessions.html?highlight=era#accession-numbers)
 
 ## Steps for submission on ENA
 1.	Study  x1 (Do it online **interactively**)
