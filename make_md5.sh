@@ -9,3 +9,5 @@ echo $i
 md5sum $i|awk '{print $1}'> ${i}.md5
 done
 cd ..
+## For powershell on windows
+(CertUtil -hashfile .\test.txt MD5)[1] -replace " ",""
